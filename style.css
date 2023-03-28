@@ -11,7 +11,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #06283d;
+    background: var(--main-color);
+}
+
+html {
+    --main-color: #d49623;
 }
 
 .container {
@@ -35,7 +39,7 @@ body {
 }
 
 .search-box input {
-    color: #06283d;
+    color: var(--main-color);
     width: 80%;
     font-size: 24px;
     font-weight: 500;
@@ -46,7 +50,7 @@ body {
 .search-box input::placeholder {
     font-size: 20px;
     font-weight: 500;
-    color: #06283d;
+    color: var(--main-color);
     text-transform: capitalize;
 }
 
@@ -63,12 +67,12 @@ body {
 
 .search-box button:hover {
     color: #fff;
-    background: #06283d;
+    background: var(--main-color);
 }
 
 .search-box i {
     position: absolute;
-    color: #06283d;
+    background: var(--main-color);
     font-size: 28px;
 }
 
